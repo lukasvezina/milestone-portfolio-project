@@ -1,0 +1,59 @@
+/**** BASE STYLES ****/
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #153437;
+}
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 64px;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+}
+
+h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 36px;
+}
+
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
+
+
+/**** GRID ****/
+#header{
+  height: 800px;
+}
+
+#about{
+  background-color: #BEC6C7;
+  height: 1050px;
+}
+
+#work{
+  height: 850px;
+}
+
+#contact{
+  height: 650px;
+}
+
+.full-width{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.half-width{
+  max-width: 600px;
+}
+
+.third-width{
+  max-width: 400px;
+}
+
+/**** HEADER ****/
