@@ -106,3 +106,21 @@ h1 span{
   text-align: center;
   line-height: 25px;
 }
+
+/**** WORK SECTION ****/
+#work h3{
+  padding-top: 170px;
+}
+
+#work img{
+  border: 1px solid #b7b7b7;
+  height: 225px;
+  width: 350px;
+}
+#project-a{
+  clear: right;
+}
+
+#project-b{
+  float: right;
+}
