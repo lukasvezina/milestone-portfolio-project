@@ -1,7 +1,7 @@
 /**** BASE STYLES ****/
 body{
   font-family: 'Raleway', sans-serif;
-  color: #153437;
+  color: #555F61;
 }
 
 h1{
@@ -26,6 +26,9 @@ h4{
   text-align: center;
 }
 
+p{
+  text-align: center;
+}
 
 /**** GRID ****/
 #header{
@@ -33,7 +36,7 @@ h4{
 }
 
 #about{
-  background-color: #BEC6C7;
+  background-color: #e3bbbd;
   height: 1050px;
 }
 
@@ -42,6 +45,7 @@ h4{
 }
 
 #contact{
+  background-color: #f7b11e;
   height: 650px;
 }
 
@@ -56,11 +60,13 @@ h4{
 }
 
 .half-width{
-  max-width: 600px;
+  float: left;
+  width: 600px;
 }
 
 .third-width{
-  max-width: 400px;
+  float: left;
+  width: 400px;
 }
 
 /**** HEADER ****/
@@ -75,7 +81,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: #153437;
+  color: #f7b11e;
   font-size: 20px;
   padding-left: 25px;
   text-decoration: none;
@@ -87,11 +93,12 @@ h1{
 }
 
 h1 span{
-  color: #799A9E;
+  color: #f7b11e;
 }
 /**** ABOUT SECTION ****/
 #about h3{
   padding-top: 170px;
+  color: white;
 }
 
 #about img{
@@ -101,7 +108,12 @@ h1 span{
   width: 300px;
 }
 
+#about h4{
+  color: white;
+}
+
 #about p{
+  color: white;
   margin: 0 300px;
   text-align: center;
   line-height: 25px;
@@ -109,7 +121,9 @@ h1 span{
 
 /**** WORK SECTION ****/
 #work h3{
+  color: #f7b11e;
   padding-top: 170px;
+  padding-bottom: 50px;
 }
 
 #work img{
@@ -117,10 +131,31 @@ h1 span{
   height: 225px;
   width: 350px;
 }
-#project-a{
-  clear: right;
+#project-a img{
+  display: block;
+  margin: 0 auto;
+
 }
 
-#project-b{
-  float: right;
+#project-b img{
+  display: block;
+  margin: 0 auto;
+}
+
+/**** CONTACT SECTION****/
+#contact h3{
+  color: white;
+  padding-top: 170px;
+  padding-bottom: 50px;
+}
+
+#contact img{
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
+}
+
+#contact h4, #contact p{
+  color: white;
 }
