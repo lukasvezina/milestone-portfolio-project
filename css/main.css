@@ -26,6 +26,9 @@ h4{
   text-align: center;
 }
 
+p{
+  text-align: center;
+}
 
 /**** GRID ****/
 #header{
@@ -56,11 +59,13 @@ h4{
 }
 
 .half-width{
-  max-width: 600px;
+  float: left;
+  width: 600px;
 }
 
 .third-width{
-  max-width: 400px;
+  float: left;
+  width: 400px;
 }
 
 /**** HEADER ****/
@@ -110,6 +115,7 @@ h1 span{
 /**** WORK SECTION ****/
 #work h3{
   padding-top: 170px;
+  padding-bottom: 50px;
 }
 
 #work img{
@@ -117,10 +123,13 @@ h1 span{
   height: 225px;
   width: 350px;
 }
-#project-a{
-  clear: right;
+#project-a img{
+  display: block;
+  margin: 0 auto;
+
 }
 
-#project-b{
-  float: right;
+#project-b img{
+  display: block;
+  margin: 0 auto;
 }
