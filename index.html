@@ -2,29 +2,72 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <title>Lukas Vézina | Développeuse</title>
   </head>
   <body>
     <div class="container">
-      <section id="header" class="full-width">
-        <h1>Bonjour, mon nom est <span>Lukas Vézina.</span></h1>
-        <h2>Je suis développeuse web, traductrice et coordonatrice de projets à Montréal.</h2>
+      <section id="header">
+        <nav>
+          <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#work">Portefolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="eng/index.html">Eng</a><li>
+          </ul>
+        </nav>
+        <div class="full-width">
+          <h1>Bonjour, <br> Mon nom est <span>Lukas Vézina.</span></h1>
+          <h2>Je suis développeuse web, traductrice et coordonatrice de projets à Montréal.</h2>
+        </div>
       </section>
-      <section id="about" class="full-width">
-        <h3>À propos de moi</h3>
-        <img src="./img/headshot.png" alt="Photo de Lukas Vézina | Lukas Vezina's picture" id="headshot">
-        <h4>J’adore créer, mais je suis très structurée.
-            Pour moi, la programmation est une façon de lier ces deux aspects de ma personnalité.</h4>
-        <p>J’ai toujours été intéressée par la technologies et j’ai finalement décidé, à 30 ans, d’en faire une carrière.
-          Mon objectif est de créer des sites élégants, propres et qui répondent aux besoins de mes clients de manière simple et efficace.</p>
+      <section id="about">
+        <div class="full-width">
+          <h3>À propos de moi</h3>
+            <img src="./img/headshot.png" alt="Photo de Lukas Vézina | Lukas Vezina's picture" id="headshot">
+              <h4>J’adore créer et je suis très structurée.</h4>
+                <p>Pour moi, la programmation est une façon de lier ces deux aspects de ma personnalité. J’ai toujours été intéressée par la technologies et j’ai finalement décidé, à 30 ans, d’en faire une carrière. Mon objectif est de créer des sites élégants, propres et qui répondent aux besoins de mes clients de manière simple et efficace.</p>
+        </div>
       </section>
-      <section id="work" class="third-width">
-        <h3>Mon portefolio</h3>
-        
+      <section id="work">
+        <div class="full-width">
+          <h3>Mon portefolio</h3>
+        </div>
+        <div class="half-width" id="project-a">
+          <a href="https://lukasvezina.github.io/101-jubilee/" target="_blank"> <img src="./img/jubilee-austen.png" alt="Projet Jubilee Austen"> </a>
+            <h4>Site web Jubilee Austen</h4>
+              <p>Projet d'apprentissage en programmation HTML5 et CSS</p>
+        </div>
+        <div class="half-width" id="project-b">
+          <a href="https://lukasvezina.github.io/101-rogue-pickings/" target="_blank"> <img src="./img/rogue-pickings.png" alt="Projet Rogue Pickings"> </a>
+            <h4>Site web Rogue Pickings</h4>
+              <p>Projet d'apprentissage en programmation HTML5 et CSS à partir d'un concept visuel sur Photoshop</p>
+        </div>
       </section>
-      <section id="contact" class="third-width">
-
+      <section id="contact">
+        <div class="full-width">
+          <h3>Contactez-moi</h3>
+        </div>
+        <div class="third-width">
+          <h4>Pour m'embaucher</h4>
+            <p>(514) 475-4175</p>
+            <p>lukas.vezina@gmail.com</p>
+        </div>
+        <div class="third-width">
+          <h4>Pour me suivre</h4>
+          <a href="https://www.linkedin.com/in/lukasvezina/" target="_blank"> <img src="./img/linkedin-logo.png" alt="Logo LinkedIn"> </a>
+          <a href="https://github.com/lukasvezina" target="_blank"> <img src="./img/github-logo.png" alt="Logo GitHub"> </a>
+        </div>
+        <div class="third-width">
+          <h4>Pour me rencontrer</h4>
+            <p>Montréal, Canada</p>
+            <p>Contactez-moi pour aller prendre un café &#10084;.</p>
+        </div>
       </section>
+      <footer> © Lukas Vézina, 2018 - Tous droits réservés</footer>
     </div>
   </body>
 </html>
